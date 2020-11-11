@@ -125,7 +125,7 @@ main{
 .box h2+div{
   width: 80px;
   height: 30px;
-  border-bottom: 1px #000 solid;
+  border-bottom: 1px #ccc solid;
   margin: auto;
 }
 .box div:last-child{
@@ -161,6 +161,9 @@ main{
 .desc-content h2{
   font-size: 35px;
   font-weight: bold;
+}
+.sectionthree{
+  padding-top: 20px;
 }
 footer{
   height: 200px;

@@ -53,9 +53,11 @@
  .twomc{
    position: absolute;
    right:20px;
-   bottom: 10px;
+   bottom: 15px;
  }
-
+ .twomc a{
+  line-height: 30px;
+ }
  .menu-container ul li{
    display: inline-block;
    padding: 0px 5px;
@@ -67,15 +69,21 @@
    font-size: 14px;
    font-weight: 600;
  }
- .twomc button:first-child{
-  padding: 8px 10px;
+ .twomc li:nth-child(2){
+  padding: 0px 10px;
   background-color: transparent;
   border: 1px #fff solid;
+  border-radius: 10px;
+  height: 30px;
+  vertical-align: middle;
  }
- .twomc button[type]{
-  padding: 8px 10px;
+ .twomc li:nth-child(3){
+  padding: 0px 10px;
+  height: 30px;
   background-color: #7CBB02;
   border-color: transparent;
+  border-radius: 10px;
+  vertical-align: middle;
  }
  button{
    border-radius: 10px;

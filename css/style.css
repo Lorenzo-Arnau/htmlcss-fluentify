@@ -9,6 +9,7 @@
   border-bottom: 1px solid #eee;
   margin: 0 auto;
   position: relative;
+  padding-top: 20px;
 }
 .fl{
   float: left;
@@ -18,8 +19,6 @@
   display: table;
   clear: both;
 }
-
-
 /* /reset e utility class */
 
  /* style */
@@ -187,4 +186,5 @@ footer h2{
   left: 10%;
   transform: translate(-10%,-50%);
 }
+
  /* /style */

@@ -39,25 +39,40 @@
    position: relative;
  }
  .menu-container{
-   height: 60px;
    position: relative;
  }
-  img{
+  .menu-container img:first-child{
     padding:5px 10px;
+    float: left;
+    width: 10%;
   }
  .onemc{
-   position: absolute;
-   left:150px;
-   bottom: 20px;
+   float: left;
+   width: 50%;
+   line-height: 60px;
  }
  .twomc{
-   position: absolute;
-   right:20px;
-   bottom: 15px;
+  float: left;
+  width: 40%;
  }
- .twomc a{
-  line-height: 30px;
+ .twomc a:first-child{
+  line-height: 60px;
  }
+ .twomc li:nth-child(2) a{
+   background-color:transparent;
+   border-color: white;
+   border: 1px #fff solid;
+   border-radius: 10px;
+   vertical-align: middle;
+   padding: 5px;
+ }
+ .twomc li:nth-child(3) a{
+  background-color: #7CBB02;
+  border-color: transparent;
+  border-radius: 10px;
+  vertical-align: middle;
+  padding: 5px;
+}
  .menu-container ul li{
    display: inline-block;
    padding: 0px 5px;
@@ -69,22 +84,7 @@
    font-size: 14px;
    font-weight: 600;
  }
- .twomc li:nth-child(2){
-  padding: 0px 10px;
-  background-color: transparent;
-  border: 1px #fff solid;
-  border-radius: 10px;
-  height: 30px;
-  vertical-align: middle;
- }
- .twomc li:nth-child(3){
-  padding: 0px 10px;
-  height: 30px;
-  background-color: #7CBB02;
-  border-color: transparent;
-  border-radius: 10px;
-  vertical-align: middle;
- }
+
  button{
    border-radius: 10px;
    border-color: transparent;
